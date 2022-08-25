@@ -27,17 +27,11 @@ public class OrderProduct {
 
     private Float price;
 
-    private Float discount;
-
     private Float amount;
-
-    private int orderHourOfDay;
 
     private int reordered;
 
     private int addToCartOrder;
 
-    private int onlyKurly;
-
-    private Float daysSincePriorOrder;
+    private int purchaseAlarm;
 }
