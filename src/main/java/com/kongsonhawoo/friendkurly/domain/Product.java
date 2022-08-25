@@ -24,7 +24,17 @@ public class Product {
 
     private String categoryName;
 
+    private Long aisleId;
+
+    private String aisleName;
+
     private Float standardPrice;
 
+    private Float discount;
+
     private int noOfReviews;
+
+    private int onlyKurly;
+
+    private Float monthAvgSalesQty;
 }

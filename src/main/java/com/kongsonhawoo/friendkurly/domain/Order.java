@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.time.LocalDateTime;
 
 @Entity
 @Getter
@@ -21,6 +20,8 @@ public class Order {
     @JoinColumn(name = "member_id")
     private Member member;
 
-    private LocalDateTime orderDate;
+    private Float orderHourOfDay;
+
+    private int daysSincePriorOrder;
 
 }

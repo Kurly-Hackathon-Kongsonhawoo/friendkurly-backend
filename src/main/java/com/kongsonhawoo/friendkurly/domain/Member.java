@@ -20,12 +20,12 @@ public class Member {
 
     private String name;
 
-    private String gender;
+    private int gender;
 
     private int age;
 
-    private String interest;
-
     private int membership;
+
+    private Float priorMonthSpend;
 
 }
